@@ -8,15 +8,16 @@
 Summary:	Digest::Whirlpool - A 512-bit, collision-resistant, one-way hash function
 #Summary(pl.UTF-8):	
 Name:		perl-Digest-Whirlpool
-Version:	1.09
-Release:	10
+Version:	2.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	852a7672ef11d46b229c0be77330e991
+# Source0-md5:	b3f1c042e2ab3226a71cc51a07b3f66a
 URL:		http://search.cpan.org/dist/Digest-Whirlpool/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-Module-Install
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
