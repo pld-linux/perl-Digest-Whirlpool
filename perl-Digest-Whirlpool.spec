@@ -6,7 +6,7 @@
 %define	pdir	Digest
 %define	pnam	Whirlpool
 Summary:	Digest::Whirlpool - A 512-bit, collision-resistant, one-way hash function
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	Digest::Whirlpool - 512-bitowa, odporna na kolizje, jednokierunkowa funkcja skrótu
 Name:		perl-Digest-Whirlpool
 Version:	2.04
 Release:	1
@@ -26,8 +26,8 @@ Provides an interface to the WHIRLPOOL hash algorithm. This module
 subclasses Digest::base and can be used either directly or through
 the Digest meta-module. Using the latter is recommended.
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Moduł ten udostępnia interfejs do algorytmu mieszania WHIRLPOOL.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
