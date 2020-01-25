@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Digest
 %define	pnam	Whirlpool
 Summary:	Digest::Whirlpool - A 512-bit, collision-resistant, one-way hash function
