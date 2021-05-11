@@ -31,6 +31,8 @@ Moduł ten udostępnia interfejs do algorytmu mieszania WHIRLPOOL.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
+%{__sed} -i -e '1s|#!/usr/bin/env perl$|#!%{__perl}|' script/whirlpoolsum
+
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
