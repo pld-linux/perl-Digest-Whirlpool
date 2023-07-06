@@ -8,7 +8,7 @@ Summary:	Digest::Whirlpool - A 512-bit, collision-resistant, one-way hash functi
 Summary(pl.UTF-8):	Digest::Whirlpool - 512-bitowa, odporna na kolizje, jednokierunkowa funkcja skrótu
 Name:		perl-Digest-Whirlpool
 Version:	2.04
-Release:	6
+Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
